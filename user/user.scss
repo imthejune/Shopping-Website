@@ -1,0 +1,208 @@
+/* cart */
+
+.row_cart {
+  background-color: #fff;
+  height: 30px;
+  align-items: center;
+}
+
+.cart_price1 {
+  font-size: 18px;
+  line-height: 28px;
+  color: #f57224;
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+.cart_price2 {
+  font-size: 14px;
+  line-height: 16px;
+  color: #757575;
+  margin-bottom: 8px;
+  text-decoration: line-through;
+}
+.cart_price3 {
+  font-size: 14px;
+  line-height: 16px;
+  color: #212121;
+  font-weight: 500;
+}
+
+.icon_qty_p {
+  position: absolute;
+  right: 20px;
+}
+.icon_qty_m {
+  position: absolute;
+  left: 20px;
+}
+
+.input_qty {
+  padding-left: 25px;
+  padding-right: 25px;
+  text-align: center;
+}
+
+.btnDelete:hover {
+  color: red;
+}
+
+.btnDelete {
+  color: black;
+}
+
+/* orderProfile */
+.Rprofile div span i {
+  color: #00b8e6;
+  font-size: 12px;
+}
+.Rprofile div div span {
+  color: #595959;
+}
+
+.Rprofile div a {
+  color: #00b8e6;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.btn_submit {
+  color: #fff;
+  border-width: thin;
+  border-color: unset;
+  background-color: #ff8000;
+  width: 100%;
+  height: 40px;
+}
+.btn_submit:hover {
+  background-color: #e67300;
+}
+
+/* manage */
+.manu_active {
+  font-weight: bold !important;
+  color: #000 !important;
+}
+.Bcol {
+  background-color: #fff;
+}
+.Mcol span {
+  padding-left: 10px;
+  font-size: 20px;
+}
+.Dcol {
+  padding: 10px 15px;
+}
+.Dcol div {
+  padding: 5px 0px;
+}
+
+.Dcol a {
+  color: #4d4d4d;
+  text-decoration: unset;
+  font-size: 17px;
+}
+
+/* order */
+.btn_show {
+  color: #fff;
+  border-width: thin;
+  border-color: unset;
+  background-color: #ff8000;
+  width: 100%;
+  border-radius: 5px;
+}
+.btn_show:hover {
+  background-color: #e67300;
+}
+.btn_show2 {
+  color: #fff;
+  border-width: thin;
+  border-color: unset;
+  background-color: #ff8000;
+  width: 100%;
+  height: 40px;
+}
+.btn_show2:hover {
+  background-color: #e67300;
+}
+.btn_bill {
+  color: #fff;
+  border-width: thin;
+  border-color: unset;
+  background-color: #007bff;
+  width: 100%;
+  height: 40px;
+}
+.btn_bill:hover {
+  background-color: #005ce6;
+}
+.btn_Wbill {
+  color: #fff;
+  border-width: thin;
+  border-color: unset;
+  background-color: #ff3333;
+  width: 100%;
+  height: 40px;
+}
+.btn_Wbill:hover {
+  background-color: #ff0000;
+}
+.btn_delivery {
+  color: #fff;
+  border-width: thin;
+  border-color: unset;
+  background-color: #ffbf00;
+  width: 100%;
+  height: 40px;
+}
+.btn_delivery:hover{
+  background-color: #e6ac00;
+}
+.btn_transport {
+  color: #fff;
+  border-width: thin;
+  border-color: unset;
+  background-color: #00cc00;
+  width: 100%;
+  height: 40px;
+}
+.btn_transport:hover{
+  background-color: #00b300;
+}
+.status1 {
+  color: #0066ff;
+}
+.status2 {
+  color: red;
+}
+.status3 {
+  color: #ffbf00;
+}
+.status4 {
+  color: #00cc00;
+}
+
+/* order_detail */
+.check{
+  font-size: 18px;
+    background: red;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    justify-content: center;
+    color: #fff;
+}
+
+.btn_back {
+  border-radius: 5px;
+  color: #fff;
+  border-width: thin;
+  border-color: unset;
+  background-color: #ff8000;
+
+  width: 100%;
+  height: 100%;
+}
+.btn_back:hover {
+  background-color: #e67300;
+}
